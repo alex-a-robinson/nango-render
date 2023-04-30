@@ -2,7 +2,7 @@ services:
     - type: web
       name: nango-server
       env: docker
-      repo: https://github.com/NangoHQ/nango-render
+      repo: https://github.com/alex-a-robinson/nango-render
       plan: free 
       branch: main
       envVars:
