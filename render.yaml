@@ -1,9 +1,9 @@
 services:
     - type: web
-      name: nango-server
+      name: nango-server2
       env: docker
       repo: https://github.com/alex-a-robinson/nango-render
-      plan: free 
+      plan: Starter 
       branch: main
       envVars:
           - key: NANGO_DB_NAME
@@ -27,7 +27,7 @@ services:
           - key: SERVER_PORT
             value: 443
 databases:
-    - name: nango-db
+    - name: nango-db2
       databaseName: nango
       user: nango
-      plan: free 
+      plan: Starter 
