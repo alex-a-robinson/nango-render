@@ -1,4 +1,4 @@
-FROM nangohq/nango-server:latest
+FROM vidonai/my-nango-server:latest
 
 ARG RENDER_EXTERNAL_URL
 ENV NANGO_SERVER_URL=$RENDER_EXTERNAL_URL
